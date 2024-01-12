@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "180541816078",
+    "project_id": "hackfest23-6f216",
+    "storage_bucket": "hackfest23-6f216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180541816078:android:d89129cf08a59442c7ab5f",
+        "android_client_info": {
+          "package_name": "com.virtutech.univoiceconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZlQVzBtbhtFQDa73QoE-3aPlHBpcHSi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
