@@ -1,0 +1,10 @@
+0 air
+1 demam
+2 dengar
+3 makan
+4 minum
+5 salah
+6 saya
+7 senyap
+8 tidur
+9 waktu

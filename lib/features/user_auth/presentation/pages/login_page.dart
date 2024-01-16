@@ -1,5 +1,3 @@
-// ignore_for_file: unnecessary_import, prefer_final_fields, prefer_const_constructors, prefer_const_literals_to_create_immutables, no_leading_underscores_for_local_identifiers, unused_import
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
@@ -93,7 +91,38 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
               SizedBox(height: 10,),
-              
+              GestureDetector(
+                onTap: () {
+                  _signInWithGoogle();
+
+                },
+                child: Container(
+                  width: double.infinity,
+                  height: 45,
+                  decoration: BoxDecoration(
+                    color: Colors.red,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: Center(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(FontAwesomeIcons.google, color: Colors.white,),
+                        SizedBox(width: 5,),
+                        Text(
+                          "Sign in with Google",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+
+
               SizedBox(
                 height: 20,
               ),

@@ -7,7 +7,9 @@ buildscript {
 
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "com.google.gms.google-services4.4.0"
+        classpath "com.google.gms.google-services:4.8.0"
+        com.google.gms.gvvoogleservices.GoogleServicesPlugin.config.disableVersionCheck = true
+        classpath "org.tensorflow:tensorflow-android:+"
     }
 }
 
@@ -15,6 +17,9 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url 'https://google.bintray.com/tensorflow'
+        }
     }
 }
 

@@ -1,0 +1,1 @@
+C:\Users\Julia\StudioProjects\univoiceconnect\app\build\classes\kotlin\main\univoiceconnect\App.class;C:\Users\Julia\StudioProjects\univoiceconnect\app\build\classes\kotlin\main\univoiceconnect\AppKt.class
