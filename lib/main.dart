@@ -10,6 +10,7 @@ import 'package:univoiceconnect/features/app/splash_screen/splash_screen.dart';
 import 'package:univoiceconnect/features/user_auth/presentation/pages/home_page.dart';
 import 'package:univoiceconnect/features/user_auth/presentation/pages/login_page.dart';
 import 'package:univoiceconnect/features/user_auth/presentation/pages/sign_up_page.dart';
+import 'package:univoiceconnect/features/app/translation/translation.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -42,6 +43,7 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginPage(),
         '/signUp': (context) => SignUpPage(),
         '/home': (context) => HomePage(),
+        '/translate': (context) => Translate()
       },
     );
   }
